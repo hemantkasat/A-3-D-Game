@@ -1,0 +1,19 @@
+the game for now has one player and one plateform having many tiles having varying height,random location.
+the game has five view as of know which can be sequentially viewed by pressing "v" again and again. the all view sequence is   like this ->
+1.top view, it is by default in the start of the game.
+2.Helicopter view , it is by default at a certain camera and you can rotate it using mouse for different angles and by pressing "r" in this , you can go to the default helicopter view.
+3.tower view
+4.follow cam view
+5.adventure view.
+
+controls are like this -> 
+(in all default views)
+->right arrow -> player moves right,
+->left arrow -> player moves left,
+->up arrow -> player moves up,
+->down arrow -> player moves down
+->space -> jump,
+->after pressing space , if you press right, left ,up or down key then correspondingly you jump in the corresponding direction.
+some rules -> 
+when player moves onto the position where there is no tile present then it dies and when it reaches bottomrightmost tile it wins the game.
+there are some tiles which are doing "SHM" motion.
